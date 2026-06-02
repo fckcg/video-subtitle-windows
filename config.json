@@ -1,0 +1,27 @@
+{
+  "_comment": "字幕工具配置文件 - 根据你的实际路径修改",
+
+  "whisper_cli": "D:/srtskills/whisper/Release/whisper-cli.exe",
+  "model": "D:/srtskills/ggml-large-v3-turbo.bin",
+  "ffmpeg": "",
+
+  "threads": 4,
+  "fontsize": 48,
+  "style": "box",
+  "font": "Microsoft YaHei",
+
+  "_font_options": [
+    "Microsoft YaHei  (微软雅黑，Windows 首选中文字幕字体)",
+    "SimHei           (黑体，较粗醒目)",
+    "KaiTi            (楷体)",
+    "Arial            (英文首选)"
+  ],
+
+  "_style_options": [
+    "box     = 黑底白字（默认，对比强）",
+    "outline = 白字黑描边（不遮画面）"
+  ],
+
+  "_upload_note": "upload_dir 留空则不自动复制成片",
+  "upload_dir": ""
+}
